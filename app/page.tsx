@@ -28,11 +28,11 @@ export default function Home() {
             <div className="flex justify-between mb-8">
               <div className="flex items-center gap-3">
                 <Image 
-                  src="/horizontal-icon.png"
+                  src="/h-icon.svg"
                   width={40}
                   height={40}
                   alt="Horizontal Labs Logo"
-                  className="h-9 w-auto"
+                  className="h-9 w-auto rounded-lg"
                 />
                 <span className="text-lg font-bold text-white">Horizontal Labs</span>
               </div>
@@ -71,11 +71,11 @@ export default function Home() {
         <div className="container flex h-14 md:h-16 items-center justify-between py-2 md:py-4">
           <div className="flex items-center gap-3">
             <Image 
-              src="/horizontal-icon.png"
+              src="/h-icon.svg"
               width={48}
               height={48}
               alt="Horizontal Labs Logo"
-              className="h-8 md:h-10 w-auto"
+              className="h-8 md:h-10 w-auto rounded-lg"
             />
             <span className="text-lg md:text-xl font-bold text-white">Horizontal Labs</span>
           </div>
@@ -472,11 +472,11 @@ export default function Home() {
         <div className="container flex flex-col items-center justify-between gap-2 px-4">
           <div className="flex items-center gap-2">
             <Image 
-              src="/horizontal-icon.png"
+              src="/h-icon.svg"
               width={32}
               height={32}
               alt="Horizontal Labs Logo"
-              className="h-7 w-auto"
+              className="h-7 w-auto rounded-lg"
             />
             <span className="text-sm font-bold text-white">Horizontal Labs</span>
           </div>
