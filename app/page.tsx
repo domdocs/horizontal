@@ -28,9 +28,9 @@ export default function Home() {
             <div className="flex justify-between mb-8">
               <div className="flex items-center gap-3">
                 <Image 
-                  src="/horizontal_logo.svg"
-                  width={140}
-                  height={35}
+                  src="/horizontal-icon.png"
+                  width={40}
+                  height={40}
                   alt="Horizontal Labs Logo"
                   className="h-9 w-auto"
                 />
@@ -71,9 +71,9 @@ export default function Home() {
         <div className="container flex h-14 md:h-16 items-center justify-between py-2 md:py-4">
           <div className="flex items-center gap-3">
             <Image 
-              src="/horizontal_logo.svg"
-              width={160}
-              height={40}
+              src="/horizontal-icon.png"
+              width={48}
+              height={48}
               alt="Horizontal Labs Logo"
               className="h-8 md:h-10 w-auto"
             />
@@ -472,9 +472,9 @@ export default function Home() {
         <div className="container flex flex-col items-center justify-between gap-2 px-4">
           <div className="flex items-center gap-2">
             <Image 
-              src="/horizontal_logo.svg"
-              width={120}
-              height={30}
+              src="/horizontal-icon.png"
+              width={32}
+              height={32}
               alt="Horizontal Labs Logo"
               className="h-7 w-auto"
             />
