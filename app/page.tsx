@@ -26,14 +26,15 @@ export default function Home() {
         <div className="fixed inset-0 z-50 bg-background/95 backdrop-blur-sm md:hidden">
           <div className="flex flex-col h-full p-5">
             <div className="flex justify-between mb-8">
-              <div className="flex items-center">
+              <div className="flex items-center gap-3">
                 <Image 
                   src="/horizontal_logo.svg"
-                  width={160}
-                  height={40}
+                  width={140}
+                  height={35}
                   alt="Horizontal Labs Logo"
-                  className="h-10 w-auto"
+                  className="h-9 w-auto"
                 />
+                <span className="text-lg font-bold text-white">Horizontal Labs</span>
               </div>
               <button onClick={() => setMobileMenuOpen(false)}>
                 <X className="h-6 w-6" />
@@ -68,14 +69,15 @@ export default function Home() {
 
       <header className="sticky top-0 z-40 border-b border-white/10 bg-background/60 backdrop-blur-xl supports-[backdrop-filter]:bg-background/30">
         <div className="container flex h-14 md:h-16 items-center justify-between py-2 md:py-4">
-          <div className="flex items-center">
+          <div className="flex items-center gap-3">
             <Image 
               src="/horizontal_logo.svg"
-              width={180}
-              height={45}
+              width={160}
+              height={40}
               alt="Horizontal Labs Logo"
               className="h-8 md:h-10 w-auto"
             />
+            <span className="text-lg md:text-xl font-bold text-white">Horizontal Labs</span>
           </div>
           <nav className="hidden md:flex items-center gap-4 lg:gap-6">
             <Link href="#about" className="text-sm font-medium transition-colors hover:text-primary whitespace-nowrap">
@@ -468,14 +470,15 @@ export default function Home() {
       </main>
       <footer className="w-full border-t border-white/10 bg-background/60 py-4 backdrop-blur-xl">
         <div className="container flex flex-col items-center justify-between gap-2 px-4">
-          <div className="flex items-center">
+          <div className="flex items-center gap-2">
             <Image 
               src="/horizontal_logo.svg"
               width={120}
               height={30}
               alt="Horizontal Labs Logo"
-              className="h-8 w-auto"
+              className="h-7 w-auto"
             />
+            <span className="text-sm font-bold text-white">Horizontal Labs</span>
           </div>
           <p className="text-center text-xs text-muted-foreground">
             &copy; {new Date().getFullYear()} Horizontal Labs. All rights reserved.
