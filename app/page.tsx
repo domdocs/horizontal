@@ -114,7 +114,7 @@ export default function Home() {
                     Revolutionizing Digital Experiences
                   </h1>
                   <p className="text-sm sm:text-base text-muted-foreground">
-                    We design and develop full-stack applications that modernize systems.
+                    We craft and build full-stack applications that help businesses increase sales, streamline operations, and accelerate growth. Partner with us to modernize your systems and unlock your business's full potential.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 sm:flex-row">
@@ -171,7 +171,7 @@ export default function Home() {
                   Full-Stack App Development
                 </h2>
                 <p className="mx-auto text-xs sm:text-sm text-muted-foreground">
-                  We develop new applications and modernize legacy systems with cutting-edge technology.
+                  We develop powerful solutions that transform businesses and modernize legacy systems with cutting-edge technology.
                 </p>
               </div>
             </div>
